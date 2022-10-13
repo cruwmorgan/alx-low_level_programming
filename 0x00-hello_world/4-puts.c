@@ -1,15 +1,14 @@
 #include <stdio.h>
 
-
-
 /*
-*main block for outputting a sentence
-*always return 0
+*
+*Main entry
+*Description:'Using C puts command to print a sentence'
 */
+
 int main(void)
 {
-	char msgh[]="\"Programming is like building a multilingual puzzle";
-	puts(msgh);
+	puts("\"Programming is like building a multilingual puzzle");
 	/*return 0 below*/
 	return (0);
 }
