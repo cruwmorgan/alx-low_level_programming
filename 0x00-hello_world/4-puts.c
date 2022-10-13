@@ -2,6 +2,7 @@
 
 /**
 * main - Using C puts command to print a sentence
+* Return: 0
 */
 
 int main(void)
