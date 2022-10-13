@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
+/**
 *
-*Main entry
-*Description:'Using C puts command to print a sentence'
+* Main entry
+* Description:'Using C puts command to print a sentence'
 */
 
 int main(void)
