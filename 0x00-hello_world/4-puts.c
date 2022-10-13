@@ -6,9 +6,10 @@
 *main block for outputting a sentence
 *always return 0
 */
-int main(void)
+int main(char msgh[])
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	msgh="\"Programming is like building a multilingual puzzle";
+	puts(msgh);
 	/*return 0 below*/
 	return (0);
 }
