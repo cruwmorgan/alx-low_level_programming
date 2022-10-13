@@ -2,8 +2,7 @@
 
 /**
 *
-* Main entry
-* Description:'Using C puts command to print a sentence'
+* main - Using C puts command to print a sentence
 */
 
 int main(void)
