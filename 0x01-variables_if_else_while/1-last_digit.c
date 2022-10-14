@@ -22,7 +22,7 @@ int main(void)
 				n = rand() - RAND_MAX / 2;
 
 					/* your code goes there */
-					int m = n%10;
+					char m = n%10;
 					if (m > 5)
 						printf("Last digit of %d is %u and is greater than 5\n", n , m);
 					else if (m == 0)
