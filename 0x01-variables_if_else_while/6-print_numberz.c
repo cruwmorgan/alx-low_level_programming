@@ -13,7 +13,7 @@ int main(void)
 	/*@for loops through 0 to 9*/
 	for (m = 0; m < 10 ; m++)
 	{
-		printf("%d", m);
+		putchar(m);
 	}
 	putchar('\n');
 	return (0);
