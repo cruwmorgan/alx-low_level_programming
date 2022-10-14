@@ -22,13 +22,12 @@ int main(void)
 				n = rand() - RAND_MAX / 2;
 
 					/* your code goes there */
-					char m = n%10;
-					if (m > 5)
-						printf("Last digit of %d is %u and is greater than 5\n", n , m);
-					else if (m == 0)
-						printf("Last digit of %d is %u and is 0\n", n , m);
-					else if (m < 6 && m != 0)
-						printf("Last digit of %d is %u and is less than 6 and not 0\n", n , m);
+					if (n % 10 > 5)
+						printf("Last digit of %d is %u and is greater than 5\n", n , n%10);
+					else if (n % 10 == 0)
+						printf("Last digit of %d is %u and is 0\n", n , n%10);
+					else if (n % 10 < 6 && n % 10 != 0)
+						printf("Last digit of %d is %u and is less than 6 and not 0\n", n , n%10);
 					else
 						return (0);
 
