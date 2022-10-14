@@ -4,7 +4,7 @@
 
 /* more headers goes there */
 /**
-* main - program will assign a random number to the variable n each time it is executed
+* main - program will assign a random number to the variable n each time 
 * Return: 0 is returned
 */
 
@@ -24,9 +24,9 @@ int main(void)
 				n = rand() - RAND_MAX / 2;
 
 					/* your code goes there */
-					if (n>0)
+					if (n > 0)
 						printf("%u is positive\n", n);
-					else if (n==0)
+					else if (n == 0)
 						printf("%u is zero\n", n);
 					else
 						printf("%u is negative\n", n);
