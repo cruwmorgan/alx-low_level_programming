@@ -4,7 +4,7 @@
 
 /* more headers goes there */
 /**
-* main - program will assign a random number to the variable n each time 
+* main - program will assign a random number to the variable n each time
 * Return: 0 is returned
 */
 
@@ -25,11 +25,11 @@ int main(void)
 
 					/* your code goes there */
 					if (n > 0)
-						printf("%u is positive\n", n);
+						printf("%d is positive\n", n);
 					else if (n == 0)
-						printf("%u is zero\n", n);
+						printf("%d is zero\n", n);
 					else
-						printf("%u is negative\n", n);
+						printf("%d is negative\n", n);
 					return (0);
 
 }
