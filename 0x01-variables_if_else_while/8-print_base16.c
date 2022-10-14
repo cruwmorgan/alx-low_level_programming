@@ -15,7 +15,7 @@ int main(void)
 		putchar(m);
 	}
 	/*@for loops through a to f*/
-	for (n = 'a'; n <= 'f' ; n++);
+	for (n = 'a'; n <= 'f' ; n++)
 	{
 		putchar(n);
 	}
