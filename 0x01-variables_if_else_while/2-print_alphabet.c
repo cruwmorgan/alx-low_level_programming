@@ -10,6 +10,7 @@
 int main(void)
 {
 	int m;
+	/*@for pronts the alphabets*/
 	for (m = 'a'; m <= 'z'; m++)
 
 	{
