@@ -13,10 +13,10 @@ int main(void)
 	long long int nan;
 	float num;
 
-	printf("Size of a char: $lu byte(s)\n", (unsigned long)sizeof(han));
-	printf("Size of an int: $lu byte(s)\n", (unsigned long)sizeof(an));
-	printf("Size of a long int: $lu byte(s)\n", (unsigned long)sizeof(lan));
-	printf("Size of a long long int: $lu byte(s)\n", (unsigned long)sizeof(nan));
-	printf("Size of a float: $lu byte(s)\n", (unsigned long)sizeof(num));
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(han));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(an));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(lan));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(nan));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(num));
 	return (0);
 }
