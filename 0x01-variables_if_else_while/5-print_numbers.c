@@ -10,6 +10,7 @@
 int main(void)
 {
 	int m;
+	/*@for loops through the number 0 to 10*/
 	for (m = 0; m < 10 ; m++)
 	{
 		printf("%d", m);
