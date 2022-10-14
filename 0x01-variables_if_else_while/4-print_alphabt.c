@@ -10,6 +10,7 @@
 int main(void)
 {
 	int m, e, q;
+	/*@e and @q are the alphabets that will be omitted*/
 	e = 'e';
 	q = 'q';
 	/*@for prints the alphabet in lowercase except q and e*/
