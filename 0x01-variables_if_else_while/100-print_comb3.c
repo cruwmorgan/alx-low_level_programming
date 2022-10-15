@@ -13,7 +13,7 @@ int main(void)
 	for (m = '0'; m < '9' ; m++)
 	{
 		/*@for loops through 0 to 9*/
-		for (n = '0'; n <= 9; n++)
+		for (n = m + 1; n <= 9; n++)
 		{
 			/*@if checks if n and m are similar*/
 			if (n != m)
