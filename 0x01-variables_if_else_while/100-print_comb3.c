@@ -16,13 +16,13 @@ int main(void)
 		for (n = '0'; n <= 9; n++)
 		{
 			/*@if checks if n and m are similar*/
-			if (n != m) {
+			if (n != m)
+			{
 				putchar(m);
 				putchar(n);
 				/*@if checks if n is not 9 and m not 8*/
-				if (n != '9' && m != '8') {
+				if (n != '9' && m != '8')
 					continue;
-				}
 				putchar(',');
 				putchar(' ');
 			}
