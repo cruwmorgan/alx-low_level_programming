@@ -22,7 +22,7 @@ int main(void)
 				putchar(n);
 				/*@if checks m to 8 and n to 9*/
 				if (m == '8' && n == '9')
-					continue;		
+					continue;
 				putchar(',');
 				putchar(' ');
 			}
