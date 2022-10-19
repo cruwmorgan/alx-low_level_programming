@@ -34,7 +34,7 @@ void times_table(void)
 				putchar((g % 10) + '0');
 				/* @if checks n=9*/
 				if (n == 9)
-						continue;
+					continue;
 				putchar(',');
 				putchar(' ');
 			}
