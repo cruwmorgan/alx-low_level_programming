@@ -16,8 +16,6 @@ int _islower(int c)
 		/* #if checks if c is a lowercase*/
 		if (m == c)
 			n = 1;
-		else
-			n = 0;
 	}
-	return n;
+	return (n);
 }
