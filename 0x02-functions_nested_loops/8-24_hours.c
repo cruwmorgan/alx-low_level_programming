@@ -14,11 +14,11 @@ void jack_bauer(void)
 		/* @for loops g from 0 to 59*/
 		for (g = 0; g < 60; g++)
 		{
-			putchar((H / 10) + '0');
-			putchar((H % 10) + '0');
+			putchar((m / 10) + '0');
+			putchar((m % 10) + '0');
 			putchar(':');
-			putchar((M / 10) + '0');
-			putchar((M % 10) + '0');
+			putchar((g / 10) + '0');
+			putchar((g % 10) + '0');
 			putchar('\n');
 		}
 	}
