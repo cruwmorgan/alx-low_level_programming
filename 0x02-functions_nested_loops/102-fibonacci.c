@@ -11,7 +11,6 @@ int main(void)
 	long int n[50];
 	n[0] = 0;
 	n[1] = 1;
-	printf("%ld, ", n[1]);
 	/* @for loops from 2 to 49*/
 	for (m = 2; m < 50; m++)
 	{
