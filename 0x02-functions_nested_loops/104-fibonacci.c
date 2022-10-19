@@ -14,7 +14,7 @@ int main(void)
 	n[1] = 2;
 	printf("%ld, %ld, ", n[0], n[1]);
 	/* @for loops from 2 to 98*/
-	for (m = 2; m < 98; m++)
+	for (m = 2; m <= 98; m++)
 	{
 		n[m] = n[m - 1] + n[m - 2];
 		/* @if checks for m =98*/
