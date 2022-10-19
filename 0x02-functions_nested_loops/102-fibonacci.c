@@ -13,7 +13,7 @@ int main(void)
 	n[1] = 1;
 	printf("%ld, %ld, ", n[0], n[1]);
 	/* @for loops from 2 to 49*/
-	for (m = 2; m < 50; m++)
+	for (m = 3; m < 50; m++)
 	{
 		n[m] = n[m - 1] + n[m - 2];
 		/* @if checks for m =49*/
