@@ -9,6 +9,7 @@ int main(void)
 {
 	int m;
 	long int n[50];
+
 	n[0] = 1;
 	n[1] = 2;
 	printf("%ld, %ld, ", n[0], n[1]);
