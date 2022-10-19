@@ -8,15 +8,15 @@
 int main(void)
 {
 	int m;
-	long int n[51];
+	long int n[50];
 	n[0] = 1;
 	n[1] = 2;
 	/* @for loops from 2 to 49*/
-	for (m = 2; m <= 51; m++)
+	for (m = 2; m <= 50; m++)
 	{
 		n[m] = n[m - 1] + n[m - 2];
 		/* @if checks for m =49*/
-		if (m == 51)
+		if (m == 50)
 			printf("%ld\n", n[m]);
 		else
 			printf("%ld, ", n[m]);
