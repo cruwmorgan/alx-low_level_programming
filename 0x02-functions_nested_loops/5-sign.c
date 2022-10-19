@@ -12,18 +12,18 @@ int print_sign(int n)
 	/* @if checks if n > 0*/
 	if (n > 0)
 	{
-		v = 1;
 		putchar('+');
+		v = 1;
 	}
 	else if (n == 0)
 	{
-		v = 0;
 		putchar('0');
+		v = 0;
 	}
 	else
 	{
-		v = -1;
 		putchar('-');
+		v = -1;
 	}
 	return (v);
 }
