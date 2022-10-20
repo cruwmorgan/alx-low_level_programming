@@ -8,7 +8,7 @@
 int main(void)
 {
 	int i;
-
+	/* positive_or_negative - function to check number*/
 	i = 98;
 	positive_or_negative(i);
 
