@@ -15,7 +15,9 @@ void more_numbers(void)
 		/* @for loops from 0 to 14*/
 		for (; n <= 14; n++)
 		{
-			putchar(n);
+			if (n > 9)
+				putchar(n / 10 + '0');
+			putchar(n % 10 + '0');
 		}
 		putchar('\n');
 	}
