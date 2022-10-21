@@ -1,4 +1,4 @@
-void get_m(int g);
+#include "main.h"
 
 /**
 * print_number -  function that prints an integer.
@@ -10,7 +10,7 @@ void print_number(int n)
 {
 	/* @if checks integers and print it*/
 	if (n == 0)
-		putchar('0');
+		putchar(n);
 	else if (n < 0)
 	{
 		putchar('-');
