@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+void get_m(int g);
 
 /**
 * print_number -  function that prints an integer.
