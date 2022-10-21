@@ -12,16 +12,15 @@ void print_square(int size)
 	/* @if checks size value*/
 	if (size > 0)
 	{
-		int m, n = 0;
+		int m, n;
 		/* @for loops from 0 to inputted size*/
-		for (; m < size; m++)
+		for (m = 0; m < size; m++)
 		{
 			/* @for loops from 0 to inputted size*/
-			for (; n < size; n++)
+			for (n = 0; n < size; n++)
 				putchar('#');
 			putchar('\n');
 		}
 	}
-	else
-		putchar('\n');
+	putchar('\n');
 }
