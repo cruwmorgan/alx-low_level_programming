@@ -2,14 +2,14 @@
 #include "main.h"
 
 /**
-* fizz_buzz - program that prints the numbers from 1 to 100, followed by a new
+* main - program that prints the numbers from 1 to 100, followed by a new
 * line, But for multiples of three print Fizz instead of the number and for the
 * multiples of five print Buzz. For numbers which are multiples of both three
 * and five print FizzBuzz
 * Return: 0 is returned
 */
 
-void fizz_buzz(void)
+int main(void)
 {
 	int m;
 	/* @for loops from 1 to 99*/
@@ -26,4 +26,6 @@ void fizz_buzz(void)
 			printf("%d ", m);
 	}
 	printf("Buzz\n");
+
+	return (0);
 }
