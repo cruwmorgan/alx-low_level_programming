@@ -2,14 +2,12 @@
 
 /**
 * mul - function that multiplies two integers
-* Return - result of multiplication is returned
+* Return: a * b
 * @a: an input
 * @b: an input
 */
 
 int mul(int a, int b)
 {
-	int p = a * b;
-
-	return (p);
+	return (a * b);/* Description: return value*/
 }
