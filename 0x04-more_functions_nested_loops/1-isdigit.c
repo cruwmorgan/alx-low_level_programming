@@ -1,25 +1,26 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
-* _isdigit -  function that checks for a digit (0 through 9)
-* Return: 1 if input is a digt and 0 if its not a digit
+* _isdigit -  function that checks for a digit
+* Return: 1 if input is a digit and 0 if input is not
 * @c: an input
 */
 
 int _isdigit(int c)
 {
-	char n = '0';
-	int m = 0;
-	/* @for loops to 9*/
-	for (; n <= '9'; n++)
+	char m = '0';
+	int n = 0;
+	/* @for loops to Z*/
+	for (; m <= '9'; m++)
 	{
-		/* @if checks if input is a digit*/
-		if (c == n)
+		/* @if checks if input is an uppercase*/
+		if (c == m)
 		{
-			m = 1;
+			n = 1;
 			break;
 		}
 	}
 
-	return (m);
+	return (n);
 }
