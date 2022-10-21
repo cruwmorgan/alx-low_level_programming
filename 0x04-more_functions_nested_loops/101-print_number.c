@@ -1,4 +1,3 @@
-#include "main.h"
 void get_m(int g);
 
 /**
