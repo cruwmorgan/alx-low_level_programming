@@ -9,10 +9,10 @@
 
 int _isupper(int c)
 {
-	char m = "A";
+	char m = 'A';
 	int n = 0;
 	/* @for loops to Z*/
-	for (; m <= "Z"; m++)
+	for (; m <= 'Z'; m++)
 	{
 		/* @if checks if input is an uppercase*/
 		if (c == m)
