@@ -30,8 +30,8 @@ void print_number(int n)
 void get_m(int g)
 {
 	int m = 1000000000;
-	/* @for loops from 0*/
-	for (; m >= 0; m /= 10)
+	/* @for loops from 1*/
+	for (; m >= 1; m /= 10)
 	{
 		/* @if checks for 0*/
 		if (g / m != 0)
