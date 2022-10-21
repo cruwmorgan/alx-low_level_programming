@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -9,9 +8,10 @@
 
 int _isdigit(int c)
 {
+	char n = '0';
 	int m = 0;
 	/* @for loops to 9*/
-	for (int n = 0; n <= 9; n++)
+	for (; n <= '9'; n++)
 	{
 		/* @if checks if input is a digit*/
 		if (c == n)
