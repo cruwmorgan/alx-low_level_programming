@@ -9,13 +9,17 @@
 
 void puts_half(char *str)
 {
-	int m, n = 0;
+	int m, n = 0, g;
 	/* @while checks null*/
 	while (str[m] != '\0')
 		m++;
-	n = (m + 1) / 2;
+	/* @if divides length by 2 */
+	if (m % 2 == 0)
+		n = m / 2;
+	else
+		n = (m + 1) / 2;
 	/* @for loops and print the result*/
-	for (m = n - 1; str[m] != '\0'; m++)
-		putchar(str[m]);
+	for (g = n; g < m; g++)
+		putchar(str[g]);
 	putchar('\n');
 }
