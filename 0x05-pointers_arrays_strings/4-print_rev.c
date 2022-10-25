@@ -14,7 +14,7 @@ void print_rev(char *s)
 	while (s[len] != '\0')
 		len++;
 	/* @for loops backword*/
-	for (int m = len - 1; m >= 0; m--)
-		putchar(s[m]);
+	for (len = len - 1; len >= 0; len--)
+		putchar(s[len]);
 	putchar('\n');
 }
