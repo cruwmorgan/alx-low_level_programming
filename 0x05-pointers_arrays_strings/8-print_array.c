@@ -19,6 +19,7 @@ void print_array(int *a, int n)
 		/* @if checks empty value*/
 		if (m < n - 1)
 			printf(", ");
+		m++;
 	}
 	printf("\n");
 }
