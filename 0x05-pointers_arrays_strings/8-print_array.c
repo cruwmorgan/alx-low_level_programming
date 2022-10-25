@@ -12,14 +12,13 @@
 void print_array(int *a, int n)
 {
 	int m = 0;
-	/* @while prints the array values*/
-	while (m < n)
+	/* @for loops and prints the array values*/
+	for (; m < n; m++)
 	{
 		printf("%d", a[m]);
 		/* @if checks empty value*/
 		if (m < n - 1)
 			printf(", ");
-		m++;
 	}
 	printf("\n");
 }
