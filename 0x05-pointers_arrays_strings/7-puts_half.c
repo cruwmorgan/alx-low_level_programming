@@ -9,7 +9,7 @@
 
 void puts_half(char *str)
 {
-	int m = 0, n, g;
+	int m = 0, n, g, k;
 	/* @while checks null*/
 	while (str[m] != '\0')
 		m++;
@@ -19,7 +19,7 @@ void puts_half(char *str)
 	else
 		n = (m + 1) / 2;
 	/* @for loops and print the result*/
-	for (g = n; g <= m; g++)
+	for (g = n, k = 0; g <= m; g++, k++)
 		putchar(str[g]);
 	putchar('\n');
 }
