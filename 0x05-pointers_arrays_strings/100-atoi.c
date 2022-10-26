@@ -20,7 +20,7 @@ int _atoi(char *s)
 		if (*s >= '0' && *s <= '9')
 		{
 			g = 1;
-			n = n * 10 + *s - '0';
+			n = (n * 10) + (*s - '0');
 		}
 		else if (g)
 			break;
