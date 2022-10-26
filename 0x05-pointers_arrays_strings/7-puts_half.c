@@ -19,7 +19,7 @@ void puts_half(char *str)
 	else
 		n = (m - 1) / 2;
 	/* @for loops and print the result*/
-	for (g = n + 1, k = 0; g <= m; g++, k++)
+	for (g = n, k = 0; g < m; g++, k++)
 		putchar(str[g]);
 	putchar('\n');
 }
