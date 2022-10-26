@@ -16,5 +16,4 @@ void rev_string(char *s)
 	/* @for loops backword*/
 	for (len = len - 1; len >= 0; len--)
 		putchar(s[len]);
-	return (0);
 }
