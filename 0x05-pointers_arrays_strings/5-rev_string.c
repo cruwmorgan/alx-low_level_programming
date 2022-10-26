@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* _rev_string - function that reverses a string.
+* rev_string - function that reverses a string.
 * @s: a character
 * Return: void
 */
@@ -15,5 +15,9 @@ void rev_string(char *s)
 		len++;
 	/* @for loops backword*/
 	for (len = len - 1; len >= 0; len--)
+	{
 		putchar(s[len]);
+		break;
+	}
+	putchar('\n');
 }
