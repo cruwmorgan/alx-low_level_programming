@@ -28,6 +28,6 @@ int _atoi(char *s)
 	}
 	/* @if negates n */
 	if (m < 0)
-		n *= m;
+		n = (-n) * m;
 	return (n);
 }
