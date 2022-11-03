@@ -27,7 +27,7 @@ int _sqrt_recursion(int n)
 int ms_rec(int m, int g)
 {
 	/* @if checks for root of the input*/
-	if (m * m != g)
+	if (m * m > g)
 		return (-1);
 	return (ms_rec(m + 1, g));
 }
