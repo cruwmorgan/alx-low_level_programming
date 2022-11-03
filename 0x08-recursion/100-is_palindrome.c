@@ -34,7 +34,7 @@ int is_palindrome(char *s)
 	/*@if checks for palindrome*/
 	if (f <= 1)
 		return (1);
-	return (n_palindrome(k, j));
+	return (n_palindrome(s, f));
 }
 
 /**
