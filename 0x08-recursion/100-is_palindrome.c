@@ -1,8 +1,8 @@
 #include <stdio.h>
+#include "main.h"
+
 int str_len(char *g);
 int n_palindrome(char *k, int j);
-
-#include "main.h"
 
 /**
 * str_len - function that calculate length of string
