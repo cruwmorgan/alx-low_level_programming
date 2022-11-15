@@ -14,9 +14,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog_t *new_dog;
 	char *cpname, *cpowner;
 	int l_name = 0, l_owner = 0, m;
-
+	/* @if checks for null*/
 	if (name == NULL || owner == NULL)
 		return (NULL);
+	/*@while loops for length*/
 	while (name[l_name])
 		l_name++;
 	while (owner[l_owner])
