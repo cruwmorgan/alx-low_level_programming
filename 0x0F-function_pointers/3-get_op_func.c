@@ -24,7 +24,7 @@
 	{
 		if (*(ops[m]).op == *s && *(s + 1) == '\0')
 			return (ops[m].f);
-		m++
+		m++;
 	}
 	return (NULL);
 }
